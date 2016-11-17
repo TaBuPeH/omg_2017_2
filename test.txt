@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1
 2
 3
@@ -5,6 +6,15 @@
 5
 6
 7
+=======
+1 kon
+2
+3 neshto
+4
+5
+6
+7 na vurbanov golemite ushite
+>>>>>>> 97297fc506cffb078e75eb96d20a27f894d42cee
 8
 9
 10
