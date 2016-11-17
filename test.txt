@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 1 kon
 2 ???? ???? ????
+=======
+1 kon123
+2 Пиша само тука
+>>>>>>> e9f042fb5ee1deb704f579bb6a6e08dd12f07998
 3 neshto
 4isus hristos
 5
