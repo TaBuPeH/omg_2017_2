@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head lang="bg">
+    <meta charset="UTF-8">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <title>Something something</title>
+</head>
+<body>
+<div class="menu">
+    <a href="index.html" class="homeBtn"><i class="fa fa-home" aria-hidden="true"></i></a>
+
+    <div class="dropdown">
+        <a href="#stuff"><button class="dropBtn">Stuff the stuff</button></a>
+        <div class="dropdownContent">
+            <a href="#lamb">Stuffed lamb</a>
+            <a href="#turkey">Stuffed turkey</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <a href="#pork"><button class="dropBtn">Pork the pork</button></a>
+        <div class="dropdownContent">
+            <a href="#bacon">Pork bacon</a>
+            <a href="#stpork">Stuffed pork</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <a href="#wtf"><button class="dropBtn">WTF!</button></a>
+    </div>
+
+    <div class="dropdown">
+        <a href="#modal"><button class="dropBtn">Click me first!!!</button></a>
+    </div>
+
+</div>
+
+<header class="header">
+    <div id="headerText">Here you will learn absolutely nothing!</div>
+</header>
+
+<section class="stuffed" id="stuff">
+    <div class="sectTitle stuff">
+        <div class="sectTitleText">Stuffing the stuff</div>
+        <div class="sectSubtitleText">You have to be really gentle while stuffing</div>
+    </div>
+    <div class="paraTitle" id="lamb">Stuffed lamb</div>
+    <div class="paraText">Spicy jalapeno bacon ipsum dolor amet in dolore burgdoggen deserunt.</div>
+    <div class="paraText" id="redText"> Pork loin t-bone venison burgdoggen, short ribs elit sed.</div>
+    <div class="paraTitle" id="turkey">Stuffed turkey</div>
+    <div class="paraText">Spicy jalapeno bacon ipsum dolor amet in dolore burgdoggen deserunt.</div>
+    <div class="paraText" id="orangeText"> Pork loin t-bone venison burgdoggen, short ribs elit sed.</div>
+</section>
+
+<section class="pork" id="pork">
+    <div class="sectTitle pork">
+        <div class="sectTitleText">Porking the pork</div>
+        <div class="sectSubtitleText">Don't pork too hard</div>
+    </div>
+    <div class="paraTitle" id="bacon">Pork bacon</div>
+    <div class="paraText">Spicy jalapeno bacon ipsum dolor amet in dolore burgdoggen deserunt.</div>
+    <div class="paraText" id="blueText"> Pork loin t-bone venison burgdoggen, short ribs elit sed.</div>
+    <div class="paraTitle" id="stpork">Stuffed pork</div>
+    <div class="paraText">Spicy jalapeno bacon ipsum dolor amet in dolore burgdoggen deserunt.</div>
+    <div class="paraText" id="greenText"> Pork loin t-bone venison burgdoggen, short ribs elit sed.</div>
+</section>
+
+<article class="wtf">
+    <div class="artTitle">
+        <div class="artTitleText" id="wtf">WTF!</div>
+    </div>
+    <div class="images">
+        <div class="image">
+            <a href="#openImage1"><img src="img/lamb.jpg" alt="wtf!" class="img"></a>
+                <div id="openImage1" class="modalDialog">
+                    <div>
+                        <img src="img/lamb.jpg" alt="WTF!" class="bigImg">
+                        <a href="#close" class="close"><i class="fa fa-window-close" aria-hidden="true"></i></a>
+                        <h2><span>Stuffed lamb</span></h2>
+                    </div>
+                </div>
+        </div>
+
+        <div class="image">
+            <a href="#openImage2"><img src="img/turkey.jpg" alt="wtf!" class="img"></a>
+            <div id="openImage2" class="modalDialog">
+                <div>
+                    <img src="img/turkey.jpg" alt="WTF!" class="bigImg">
+                    <a href="#close" class="close"><i class="fa fa-window-close" aria-hidden="true"></i></a>
+                    <h2><span>Stuffed turkey</span></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="image">
+            <a href="#openImage3"><img src="img/bacon.jpg" alt="wtf!" class="img"></a>
+            <div id="openImage3" class="modalDialog">
+                <div>
+                    <img src="img/bacon.jpg" alt="WTF!" class="bigImg">
+                    <a href="#close" class="close"><i class="fa fa-window-close" aria-hidden="true"></i></a>
+                    <h2><span>Pork bacon</span></h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</article>
+
+<div id="modal" class="modalDialog">
+    <div>
+        <div class="mHeader">
+            Беше ми скучно...
+        </div>
+        <div class="mPara">
+            а и ми трябваше Menu-Template
+        </div>
+        <div class="mFooter">
+            Ще се радвам на малко конструктивна критика
+        </div>
+        <a href="#close" class="close" id="spec"><i class="fa fa-window-close" aria-hidden="true"></i></a>
+    </div>
+</div>
+
+</body>
