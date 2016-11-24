@@ -1,0 +1,24 @@
+
+article{
+	
+	width:60%;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+}
+
+.mainDiv
+{
+	background-color: blue;
+	float: left;
+	width: 100%;
+}
+
+.product
+{
+	width: 22%;
+	margin: 1% 1.5%;
+	height: 500px;
+	background-color: #fff;
+	float: left;
+}

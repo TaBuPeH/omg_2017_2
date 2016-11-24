@@ -1,0 +1,26 @@
+div
+{
+	background-color: pink;
+}
+
+
+div.blue.yellow
+{
+	background-color: green ;
+}
+
+
+div.blue
+{
+	background-color: purple ;
+}
+
+div.yellow
+{
+	background-color: yellow;
+}
+
+#green
+{
+	background-color: green;
+}
