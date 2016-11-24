@@ -1,0 +1,26 @@
+article{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+}
+
+div{
+	background-color: #2E8B57;
+}
+
+#div11{
+	background-color: #FA8072;
+}
+
+#div21{
+	background-color: #FA7072;
+}
+
+.div_11{
+	background-color: #8B4513; 
+}
+
+.div_22, .div_23{
+	background-color: #F17ddF;
+}
