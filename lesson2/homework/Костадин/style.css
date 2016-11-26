@@ -1,0 +1,15 @@
+div{
+	background-color: #900020;
+}
+
+#first, #secondFirst{
+	background-color: yellow;
+}
+
+body > div {
+	background-color: navy;
+}
+
+.notFirst, .stamat{
+	background-color: green;
+}
