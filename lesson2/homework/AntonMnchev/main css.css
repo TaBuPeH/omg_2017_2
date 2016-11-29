@@ -1,0 +1,23 @@
+
+div{
+	color:red;
+	}
+						
+#myHeader{
+	color:#8B0000;
+	}
+						
+section + .first{
+	color:#FF8C00;
+	}
+
+						
+section + .first_1{
+	color:#FF8C00;
+	}						
+[class]{
+	
+	background-color:#ADFF2F;
+
+	}
+									
