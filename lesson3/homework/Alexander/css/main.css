@@ -1,0 +1,206 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.innerContent {
+    width: 70%;
+    margin-left: 15%;
+}
+
+body, html {
+    font-size: 1vw;
+}
+
+header {
+    background-image: url("../img/cover.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin-bottom: 5%;
+}
+
+.logo {
+    float: left;
+    width: 100%;
+    margin-top: 25%;
+    margin-bottom: -18.7%;
+    z-index: 100;
+}
+
+.logo img {
+    width: 23%;
+}
+
+.title{
+    float: right;
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 10%;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#id02{
+    background-image: url("../img/1956.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 2;
+    width: 100%;
+    float: left;
+    opacity: 0.7;
+}
+
+section .title {
+    float: left;
+    width: 50%;
+    margin: 15% 10%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+section .subTitle {
+    color: red;
+    font-size: 3rem;
+    font-weight: bolder;
+    float: right;
+    width: 40%;
+    margin: 10% 10%;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+section .para{
+    float: left;
+    width: 50%;
+    margin: 5% 25%;
+    color: #fff;
+    background-color: #000;
+    padding: 2%;
+    opacity: 0.7;
+    border-radius: 3%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.options {
+    float: left;
+    width: 100%;
+    margin-left: 6.5%;
+    margin-bottom: 5%;
+}
+
+.options .option {
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: 'Share Tech Mono', monospace;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    float: left;
+    width: 28%;
+    margin: 1%;
+    background-color: #ff0000;
+    transition:background-color .3s
+}
+
+.options .option:hover{
+    background-color: #333;
+    opacity: 0.8;
+    transition:background-color .3s
+}
+
+section#id03 {
+    background-image: url("../img/f1history.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    float: left;
+}
+
+#id03 .para{
+    background-color: #333333;
+    color: #fff;
+    opacity: 0.7;
+}
+
+#id04 .title{
+    float: left;
+    color: #333333;
+    width: 100%;
+    margin: 5% 0;
+    text-align: center;
+}
+
+.cars {
+    width: 95%;
+    float: left;
+    margin: 1% 5%;
+}
+
+
+.car img{
+    float: left;
+    width: 28%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+footer{
+    padding: 15%;
+    float: left;
+    width: 70%;
+    color: #ffffff;
+    font-size: 3vw;
+    font-family: 'Share Tech Mono', monospace;
+    background-image: url("../img/footer.jpg");
+    background-position: center center;
+    background-repeat: repeat;
+
+}
