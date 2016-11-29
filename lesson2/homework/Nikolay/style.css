@@ -1,0 +1,15 @@
+div{
+	background-color: #33FF00;
+}
+
+#first, #secondFirst{
+	background-color: blue;
+}
+
+body > div {
+	background-color: green;
+}
+
+.second, .stanga{
+	background-color: purple;
+}
