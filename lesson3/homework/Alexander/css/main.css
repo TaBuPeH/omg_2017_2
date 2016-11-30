@@ -41,7 +41,6 @@ table {
     border-spacing: 0;
 }
 
-
 .innerContent {
     width: 70%;
     margin-left: 15%;
@@ -177,10 +176,14 @@ section#id03 {
     text-align: center;
 }
 
+#id04{
+    margin-bottom: 5%;
+}
+
 .cars {
     width: 95%;
     float: left;
-    margin: 1% 5%;
+    margin: 1% 5% 5% 5%;
 }
 
 
@@ -200,7 +203,7 @@ footer{
     font-size: 3vw;
     font-family: 'Share Tech Mono', monospace;
     background-image: url("../img/footer.jpg");
-    background-position: center center;
+    background-position: center top;
     background-repeat: repeat;
 
 }
