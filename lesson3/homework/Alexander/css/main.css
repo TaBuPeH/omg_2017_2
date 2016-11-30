@@ -196,7 +196,7 @@ section#id03 {
 
 }
 
-footer{
+footer {
     padding: 15%;
     float: left;
     width: 70%;
@@ -205,6 +205,18 @@ footer{
     font-family: 'Share Tech Mono', monospace;
     background-image: url("../img/footer.jpg");
     background-position: center top;
+    background-attachment: fixed;
     background-repeat: repeat;
+}
+
+
+
+
+
+
+
+
+
+
 
 }
