@@ -209,14 +209,127 @@ footer {
     background-repeat: repeat;
 }
 
+@media screen and (max-width: 640px) {
+    body, html{
+        font-size: 2vw;
+    }
+
+    .logo{
+        margin-bottom: -27.2%;
+    }
+
+    .logo img{
+        width: 35%;
+    }
+
+    .title{
+        margin-top: -4%;
+        margin-bottom: 18%;
+    }
+
+    .innerContent{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .options {
+        float: left;
+        width: 100%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    section .title, section .subTitle{
+        font-size: 3.5rem;
+    }
+
+    section .para{
+        font-size: 2.5rem;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+
+    .options .option{
+        width: 90%;
+        font-size: 3rem;
+    }
+
+    .options .option:hover{
+        background-color: #ff0000;
+        opacity: 1;
+    }
+
+    .car img{
+        float: left;
+        width: 90%;
+        margin: 5%;
+    }
+
+    footer{
+        background-color: #333333;
+        background-image: none;
+    }
+}
 
 
+@media screen and (min-width: 624px) and (max-width: 1080px) {
+    body, html{
+        font-size: 2vw;
+    }
 
+    .logo{
+        margin-bottom: -27.2%;
+    }
 
+    .logo img{
+        width: 35%;
+    }
 
+    .title{
+        margin-top: -4%;
+        margin-bottom: 18%;
+    }
 
+    .innerContent{
+        width: 90%;
+        margin-left: 5%;
+    }
 
+    .options {
+        float: left;
+        width: 100%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
 
+    section .title, section .subTitle{
+        font-size: 3.5rem;
+    }
 
+    section .para{
+        font-size: 2rem;
+        width: 75%;
+        margin-left: 12.5%;
+    }
 
+    .options .option{
+        width: 30%;
+        font-size: 1.5rem;
+    }
+
+    .options .option:hover{
+        background-color: #ff0000;
+        opacity: 1;
+    }
+
+    .car img{
+        float: left;
+        width: 90%;
+        margin: 5%;
+    }
+
+    footer{
+        background-color: #333333;
+        background-image: none;
+    }
 }
